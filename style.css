@@ -19,7 +19,7 @@ h2{
 .half-width{
     /* img takes larger space as per  img size*/
     width: 50%; 
-    padding-left: 5%;
+    padding-left: 3%;
 }
 .half-width img{
     /* img used only 80% area of  50% defined area for half-width*/
@@ -64,7 +64,7 @@ h2{
 
     border-left: 7px solid;
     border-image: linear-gradient(#0104F2,#11ECFE);
-    border-image-slice: 1;
+    border-image-slice: 1; /* it has 9 parts indentify which part you used */
 }
 
 footer p{
